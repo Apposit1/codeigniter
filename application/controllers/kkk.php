@@ -36,7 +36,7 @@ public function about_us()
 	}
 public function test()
  	{
-             echo "this is test";
+             $this->index()
 	}	
 public function contact_us()
 	{

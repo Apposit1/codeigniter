@@ -34,6 +34,10 @@ public function about_us()
 		$data['rows']= $this->info->about();
 		$this->load->view('about us.php',$data);
 	}
+public function test()
+ 	{
+             echo "this is test";
+	}	
 public function contact_us()
 	{
 		$this->load->view('contact us.php');
